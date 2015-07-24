@@ -1,4 +1,4 @@
-# Intermodal Container Check Digit Calculation
+# Intermodal Container Check Digit Calculator
 
 This gem facilitates simple calculation of check digits on [intermodal shipping containers](https://en.wikipedia.org/wiki/Intermodal_container).
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ```Ruby
 prefix = "TOMU"
-serial = 123456
+serial = "123456"
 
 IntermodalContainerCheckDigitCalculator::Calculator.calculate(prefix, serial)
  # => "5"
